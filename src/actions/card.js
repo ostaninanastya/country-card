@@ -1,4 +1,4 @@
-export const SHOW_CARD = "SHOW_CARD"
+export const SHOW_CARD = 'SHOW_CARD'
 
 export function handleShowCountryCard(value) {
     return {

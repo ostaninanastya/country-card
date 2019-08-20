@@ -1,0 +1,18 @@
+.languageButtonStyle {
+    background: #fff;
+    width: 58px;
+    height: 26px;
+    overflow: auto;
+    cursor: pointer;
+    border: 1px solid #d6e0e7;
+}
+
+.languageButtonStyle:hover {
+    border-color: #495c6b;
+}
+
+.languageButtonContainer {
+    position: absolute;
+    bottom: 18px;
+    right: 30px;
+}

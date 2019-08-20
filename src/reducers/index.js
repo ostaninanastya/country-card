@@ -6,5 +6,5 @@ import localeReducer from './locale'
 export default combineReducers({
     countries: countriesReducer,
     card: cardReducer,
-    localeReducer,
+    localeReducer
 })

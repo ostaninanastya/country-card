@@ -1,14 +1,14 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import {IntlProvider, addLocaleData} from 'react-intl';
-import {connect} from 'react-redux';
-import languageObject from '../translations/messages';
-
-import ru from 'react-intl/locale-data/ru';
-import en from 'react-intl/locale-data/en';
-import CountrySearch from "./Search";
-import Card from "./Card";
-import LanguageSelect from "./LanguageSelect";
+import React from 'react'
+import PropTypes from 'prop-types'
+import {IntlProvider, addLocaleData} from 'react-intl'
+import {connect} from 'react-redux'
+import languageObject from '../translations/messages'
+import ru from 'react-intl/locale-data/ru'
+import en from 'react-intl/locale-data/en'
+import CountrySearch from './Search'
+import Card from './Card'
+import LanguageSelect from './LanguageSelect'
+import style from '../style/app.module.css'
 
 addLocaleData(ru);
 addLocaleData(en);
@@ -16,8 +16,8 @@ addLocaleData(en);
 export const ApplicationTree = (props) => {
     return (
         <IntlProvider locale={props.locale} messages={languageObject[props.locale]} key={props.locale}>
-            <div className="container">
-                <div className="searchContainer">
+            <div className={style.container}>
+                <div className={style.searchContainer}>
                     <CountrySearch/>
                     <LanguageSelect/>
                 </div>

@@ -3,7 +3,7 @@ import {
     COUNTRIES_FETCHED_SUCCESS,
     COUNTRIES_REQUESTED,
     COUNTRIES_FILTER
-} from "../actions/countries";
+} from '../actions/countries'
 
 const initialState = {
     data: [],

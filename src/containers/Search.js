@@ -5,7 +5,7 @@ import {handleGetCountries, handleCountryFilter} from "../actions/countries"
 import SearchBar from '../components/SearchBar'
 import {handleShowCountryCard} from '../actions/card'
 import {FormattedMessage} from 'react-intl'
-import styles from '../style/search.css'
+import styles from '../style/search.module.css'
 
 class Search extends React.Component {
     componentDidMount() {

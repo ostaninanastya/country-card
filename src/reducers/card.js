@@ -1,4 +1,4 @@
-import {SHOW_CARD} from "../actions/card";
+import {SHOW_CARD} from '../actions/card'
 
 const initialState = {
     showCard: false,

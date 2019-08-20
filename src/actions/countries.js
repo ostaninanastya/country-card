@@ -1,11 +1,11 @@
 import axios from 'axios'
 
-export const COUNTRIES_REQUESTED = "COUNTRIES_REQUESTED"
-export const COUNTRIES_FETCHED_SUCCESS = "COUNTRIES_FETCHED_SUCCESS"
-export const COUNTRIES_FETCHED_FAILED = "COUNTRIES_FETCHED_FAILED"
-export const COUNTRIES_FILTER = "COUNTRIES_FILTER"
+export const COUNTRIES_REQUESTED = 'COUNTRIES_REQUESTED'
+export const COUNTRIES_FETCHED_SUCCESS = 'COUNTRIES_FETCHED_SUCCESS'
+export const COUNTRIES_FETCHED_FAILED = 'COUNTRIES_FETCHED_FAILED'
+export const COUNTRIES_FILTER = 'COUNTRIES_FILTER'
 
-const url = "https://restcountries.eu/rest/v2/all"
+const url = 'https://restcountries.eu/rest/v2/all'
 
 export function handleGetCountries() {
     return dispatch => {
