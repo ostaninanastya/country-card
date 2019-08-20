@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03bb077a-425d-4d1f-a212-1c1f4bb468d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/style/app.module.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/style/locale.module.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/style/search.module.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/style/search.css" afterPath="$PROJECT_DIR$/src/style/card.module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/card.js" afterPath="$PROJECT_DIR$/src/actions/card.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/countries.js" afterPath="$PROJECT_DIR$/src/actions/countries.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CountryCard.js" afterPath="$PROJECT_DIR$/src/components/CountryCard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/SearchBar.js" afterPath="$PROJECT_DIR$/src/components/SearchBar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/ApplicationTree.js" afterPath="$PROJECT_DIR$/src/containers/ApplicationTree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/LanguageSelect.js" afterPath="$PROJECT_DIR$/src/containers/LanguageSelect.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Search.js" afterPath="$PROJECT_DIR$/src/containers/Search.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/card.js" afterPath="$PROJECT_DIR$/src/reducers/card.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/countries.js" afterPath="$PROJECT_DIR$/src/reducers/countries.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/index.js" afterPath="$PROJECT_DIR$/src/reducers/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/locale.js" afterPath="$PROJECT_DIR$/src/reducers/locale.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/jest/cssTransform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/jest/fileTransform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/modules.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/paths.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/pnpTs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/webpack.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/start.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/test.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -324,12 +317,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565881445431</updated>
-      <workItem from="1565881449803" duration="93937000" />
+      <workItem from="1565881449803" duration="93995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93937000" />
+    <option name="totallyTimeSpent" value="93995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
